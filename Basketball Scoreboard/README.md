@@ -1,19 +1,61 @@
-# Getting Started
-Install the dependencies and run the project
+# Basketball Scoreboard
+
+A simple basketball scoreboard built with HTML, CSS, and JavaScript as a solo project during my JavaScript learning journey with Scrimba.
+
+## About the Project
+
+The application allows users to track the scores of two basketball teams: **Home** and **Guest**.
+
+Each team has separate buttons for adding:
+
+* 1 point
+* 2 points
+* 3 points
+
+The displayed score is updated dynamically using JavaScript.
+
+## Learning Goals
+
+This project helped me practise:
+
+* JavaScript variables
+* Functions
+* DOM manipulation
+* Event handling
+* Updating content dynamically
+* Connecting HTML, CSS, and JavaScript
+* Implementing application logic independently
+
+## Technologies
+
+* HTML
+* CSS
+* JavaScript
+
+## Project Structure
+
+```text
+basketball-scoreboard/
+├── index.html
+├── index.css
+└── index.js
 ```
-npm install
-npm start
-```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+## Running the Project
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+1. Download or clone the repository.
+2. Open the `basketball-scoreboard` directory.
+3. Open `index.html` in your browser.
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+No additional installation or build process is required.
 
-Happy Coding!
+## Credits
+
+The project requirements and design were provided as part of the Scrimba JavaScript course.
+
+The JavaScript implementation was completed independently by me as a solo project.
+
+## Author
+
+Michael
+GitHub: [MkySarte](https://github.com/MkySarte)
