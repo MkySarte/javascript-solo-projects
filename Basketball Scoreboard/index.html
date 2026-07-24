@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="score">
+            
+            <div class="score-column">
+                <div>
+                    <h3 id="home-label">HOME</h3>
+                </div>
+                <div class="score-home">
+                    <h1 id="home-score">0</h1>
+                </div>
+                <div class="score-button-container">
+                    <button class="score-button" id="home-add-1" onclick="addScoreHome1()">+1</button>
+                    <button class="score-button" id="home-add-2" onclick="addScoreHome2()">+2</button>
+                    <button class="score-button" id="home-add-3" onclick="addScoreHome3()">+3</button>
+                </div>
+            </div>
+
+            <div class="menu-buttons">
+                <button class="res-button" onclick="resetScore()">New Game</button>
+            </div>
+
+            <div class="score-column">
+                <div>
+                    <h3 id="guest-label">GUEST</h3>
+                </div>
+                <div class="score-guest">
+                    <h1 id="guest-score">0</h1>
+                </div>
+                <div class="score-button-container">
+                    <button class="score-button" id="guest-add-1" onclick="addScoreGuest1()">+1</button>
+                    <button class="score-button" id="guest-add-2" onclick="addScoreGuest2()">+2</button>
+                    <button class="score-button" id="guest-add-3" onclick="addScoreGuest3()">+3</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="menu">
+            <div>
+                <h4>Team 1: </h4>
+                <input id="team1-input" type="text" placeholder="FC Bayern">
+                <button onclick="changeTeam1()">change</button>
+            </div>
+            <div>
+                <h4>Team 2: </h4>
+                <input id="team2-input" type="text" placeholder="FC Bayern">
+                <button onclick="changeTeam2()">change</button>
+            </div>
+            
+        </div> -->
+    </div>
+
+
+        <script src="index.js"></script>
+</body>
+
+</html>

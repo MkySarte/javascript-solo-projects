@@ -1,0 +1,81 @@
+body {
+    background-color: #1b244A;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    color: #EEEEEE;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-bottom: 15px;
+    line-height: 1;
+
+}
+
+h1 {
+    color: #F94F6D;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-weight: normal;
+    margin: 0;           
+    line-height: 1;     
+}
+
+.score-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;           
+}
+.label-container{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.score {
+    display: flex;
+    gap: 80px;
+}
+
+.score-home, .score-guest {
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.score-button-container {
+    display: flex;
+    gap: 10px;
+}
+.score-button{
+    font-family: Cursed Timer ULiL;
+    font-size: 18;
+    color: #9AABD8;
+    background-color: #1b244A;
+    border: solid 2px #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+}
+
+.menu-buttons{
+    margin-top: 150;
+}
+
+.res-button{
+    background-color: #1b244A;
+    border: solid 2px orangered;
+    color: #9AABD8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    
+}
