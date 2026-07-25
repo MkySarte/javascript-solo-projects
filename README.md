@@ -23,8 +23,8 @@ Each project is stored in its own directory and contains the required HTML, CSS,
 
 ```text
 javascript-solo-projects/
-├── basketball-scoreboard/
-├── project-name/
+├── Basketball Scoreboard/
+├── BlackJack/
 └── project-name/
 ```
 
