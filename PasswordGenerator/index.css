@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;       
+    justify-content: center;    
+    min-height: 100vh;          
+    color: white;
+    gap: 20px;                  /* NEU: Erzeugt vertikalen Abstand zwischen Überschrift, Button und Passwörtern */
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'karla'
+}
+
+h2 {
+    color: lightslategray;
+    margin-top: 0px;            /* TIPP: Verhindert ungewollte Abstände nach oben */
+    font-weight: 50;
+    font-style: normal;
+}
+
+.colored {
+    color: #4ADF86;
+}
+
+button {
+    background-color: #10B981;
+    width: 191px;
+    height: 42px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;            /* TIPP: Zeigt die Klick-Hand beim Drüberfahren an */
+}
+
+.password-p {
+    background-color: #273549;
+    width: 211px;
+    height: 39px;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #55F991;
+}
+
+/* Deine neue Klasse für die nebeneinander liegenden Passwörter */
+.password {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;                  /* NEU: Erzeugt einen sauberen Abstand ZWISCHEN den Passwort-Boxen */
+}
+
+.line{
+    border: none;               /* Entfernt den Standard-Rahmen */
+    border-top:1px solid #273549; /* Nutzt deine Box-Farbe als dezente Linie */
+    margin-top: 25px;    
+}
+
+.slider-container {
+    margin-top: 20px;
+
+}
+
+.checkIt {
+    display: flex;
+    flex-direction: row;
+}
