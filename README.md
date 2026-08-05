@@ -27,7 +27,8 @@ Each project is stored in its own directory and contains the required HTML, CSS,
 javascript-solo-projects/
 ├── Basketball Scoreboard/
 ├── BlackJack/
-└── PasswordGenerator/
+├── PasswordGenerator/
+└── Browser Extension
 ```
 
 The repository will be expanded as I complete additional solo projects.
