@@ -61,6 +61,8 @@ Most projects can be opened directly through their `index.html` file. Projects t
 
 I completed Scrimba's **Learn JavaScript** course on 11 August 2026 after working through 238 lessons and completing the accompanying exercises and projects.
 
+![Scrimba Learn JavaScript Certificate](./assets/learn-javascript-certificate.png)
+
 The certificate documents my course completion. The projects in this repository demonstrate how I applied the covered concepts in practice.
 
 ## About Scrimba
