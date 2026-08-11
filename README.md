@@ -28,7 +28,8 @@ javascript-solo-projects/
 ├── Basketball Scoreboard/
 ├── BlackJack/
 ├── PasswordGenerator/
-└── Browser Extension
+├── Browser Extension/
+└── UnitConverter/
 ```
 
 The repository will be expanded as I complete additional solo projects.
@@ -41,6 +42,7 @@ The repository will be expanded as I complete additional solo projects.
 | BlackJack | A simple Blackjack game with card generation and game-state logic. | Arrays, conditions, loops, functions, and random numbers | Completed |
 | Password Generator | A random password generator with adjustable length, optional letters-only mode, and copy-to-clipboard functionality. | Event listeners, loops, arrays, user input, random values, and the Clipboard API | Completed |
 | Chrome Leads Tracker Extension | A Chrome Extension for saving and managing links, including the current browser tab, with persistent storage using Local Storage. | Chrome Extension API, Local Storage, DOM manipulation, event listeners, template literals, arrays, functions, and dynamic rendering | Completed |
+| Unit Converter | A browser-based converter for length, volume, and mass between metric and imperial units. | Functions, user input, arithmetic operators, event handling, template literals, and DOM manipulation | Completed |
 ## Running a Project
 
 1. Open the directory of the project.
